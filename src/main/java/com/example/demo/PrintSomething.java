@@ -10,5 +10,7 @@ public class PrintSomething {
 	
 	private String str1 ="User one and task 1";
 	private String str2 = "User one and task 2";
+	
+	private String str3="HIS-122";
 
 }

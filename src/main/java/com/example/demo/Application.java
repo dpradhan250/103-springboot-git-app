@@ -12,6 +12,8 @@ public class Application {
 				SpringApplication.run(Application.class, args);
 		
 		System.out.println(context.getBean(PrintSomething.class).getStr1());
+		System.out.println(
+				context.getBean(PrintSomething.class).getStr2());
 		
 		//for task HIS-1444
 		context.getBeanDefinitionNames();
