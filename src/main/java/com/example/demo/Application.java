@@ -13,6 +13,9 @@ public class Application {
 		
 		System.out.println(context.getBean(PrintSomething.class).getStr1());
 		
+		//for task HIS-1444
+		context.getBeanDefinitionNames();
+		
 		
 	}
 
